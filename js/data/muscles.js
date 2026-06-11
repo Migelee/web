@@ -2498,5 +2498,897 @@ window.ANATOMY_MUSCLES = [
       "Blood supply": "Palmar metacarpal arteries."
     },
     clinical: "Tested with the card-gripping (adduction) test; weakness with positive Froment sign indicates ulnar nerve injury."
+  },
+  // ===================== LOWER LIMB: GLUTEAL & HIP =====================
+  {
+    id: "gluteus-maximus",
+    name: "Gluteus maximus",
+    latin: "Musculus gluteus maximus",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Largest and most superficial gluteal muscle; the chief extensor of the hip.",
+    details: {
+      "Origin": "Ilium behind the posterior gluteal line, dorsal sacrum and coccyx, and the sacrotuberous ligament.",
+      "Insertion": "Iliotibial tract and the gluteal tuberosity of the femur.",
+      "Innervation": "Inferior gluteal nerve (L5, S1–S2).",
+      "Action": "Extends and laterally rotates the hip (powerful in rising from sitting, climbing and running); upper fibres abduct.",
+      "Blood supply": "Inferior and superior gluteal arteries."
+    },
+    clinical: "The upper outer quadrant of the buttock is the safe site for intramuscular injection (avoiding the sciatic nerve and gluteal vessels)."
+  },
+  {
+    id: "gluteus-medius",
+    name: "Gluteus medius",
+    latin: "Musculus gluteus medius",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Fan-shaped gluteal muscle deep to maximus; abductor and pelvic stabiliser during gait.",
+    details: {
+      "Origin": "External surface of the ilium between the anterior and posterior gluteal lines.",
+      "Insertion": "Lateral surface of the greater trochanter of the femur.",
+      "Innervation": "Superior gluteal nerve (L4–L5, S1).",
+      "Action": "Abducts the hip; steadies the pelvis on the stance leg during walking; anterior fibres medially rotate.",
+      "Blood supply": "Superior gluteal artery."
+    },
+    clinical: "Weakness produces a positive Trendelenburg sign (pelvis drops to the opposite/unsupported side) and a lurching gait."
+  },
+  {
+    id: "gluteus-minimus",
+    name: "Gluteus minimus",
+    latin: "Musculus gluteus minimus",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Smallest and deepest gluteal muscle; abducts and medially rotates the hip.",
+    details: {
+      "Origin": "External surface of the ilium between the anterior and inferior gluteal lines.",
+      "Insertion": "Anterior surface of the greater trochanter of the femur.",
+      "Innervation": "Superior gluteal nerve (L4–L5, S1).",
+      "Action": "Abducts and medially rotates the hip; stabilises the pelvis during gait.",
+      "Blood supply": "Superior gluteal artery."
+    },
+    clinical: "Acts with gluteus medius as a key pelvic stabiliser; both are weakened in superior gluteal nerve injury (Trendelenburg gait)."
+  },
+  {
+    id: "tensor-fasciae-latae",
+    name: "Tensor fasciae latae",
+    latin: "Musculus tensor fasciae latae",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Anterolateral hip muscle enclosed between layers of fascia lata that tenses the iliotibial tract.",
+    details: {
+      "Origin": "Anterior superior iliac spine and anterior iliac crest.",
+      "Insertion": "Iliotibial tract (which attaches to the lateral tibial condyle, Gerdy tubercle).",
+      "Innervation": "Superior gluteal nerve (L4–L5, S1).",
+      "Action": "Tenses the iliotibial tract and stabilises the knee in extension; assists hip flexion, abduction and medial rotation.",
+      "Blood supply": "Superior gluteal and lateral circumflex femoral arteries."
+    },
+    clinical: "Tightness contributes to iliotibial band syndrome and lateral knee pain in runners."
+  },
+  {
+    id: "piriformis",
+    name: "Piriformis",
+    latin: "Musculus piriformis",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Pear-shaped muscle of the gluteal region; a key landmark of the greater sciatic foramen and lateral rotator of the hip.",
+    details: {
+      "Origin": "Anterior surface of the sacrum (S2–S4).",
+      "Insertion": "Superior border of the greater trochanter of the femur.",
+      "Innervation": "Nerve to piriformis (anterior rami of S1–S2).",
+      "Action": "Laterally rotates the extended hip; abducts the flexed hip; stabilises the femoral head.",
+      "Blood supply": "Superior and inferior gluteal arteries."
+    },
+    clinical: "The key landmark dividing the greater sciatic foramen; piriformis spasm can compress the sciatic nerve (piriformis syndrome)."
+  },
+  {
+    id: "superior-gemellus",
+    name: "Superior gemellus",
+    latin: "Musculus gemellus superior",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Small lateral rotator of the hip above the obturator internus tendon.",
+    details: {
+      "Origin": "Ischial spine.",
+      "Insertion": "Medial surface of the greater trochanter (with the obturator internus tendon).",
+      "Innervation": "Nerve to obturator internus (L5, S1–S2).",
+      "Action": "Laterally rotates the extended hip; abducts the flexed hip; stabilises the femoral head.",
+      "Blood supply": "Inferior gluteal and internal pudendal arteries."
+    },
+    clinical: "One of the deep lateral rotators forming a 'triceps coxae' with obturator internus."
+  },
+  {
+    id: "inferior-gemellus",
+    name: "Inferior gemellus",
+    latin: "Musculus gemellus inferior",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Small lateral rotator of the hip below the obturator internus tendon.",
+    details: {
+      "Origin": "Ischial tuberosity.",
+      "Insertion": "Medial surface of the greater trochanter (with the obturator internus tendon).",
+      "Innervation": "Nerve to quadratus femoris (L4–L5, S1).",
+      "Action": "Laterally rotates the extended hip; abducts the flexed hip; stabilises the femoral head.",
+      "Blood supply": "Inferior gluteal and medial circumflex femoral arteries."
+    },
+    clinical: "Acts with the superior gemellus and obturator internus as a conjoint lateral rotator."
+  },
+  {
+    id: "obturator-externus",
+    name: "Obturator externus",
+    latin: "Musculus obturatorius externus",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Deep muscle of the medial thigh/hip that laterally rotates the hip.",
+    details: {
+      "Origin": "External surface of the obturator membrane and surrounding margins of the obturator foramen.",
+      "Insertion": "Trochanteric fossa of the femur.",
+      "Innervation": "Obturator nerve (posterior branch, L3–L4).",
+      "Action": "Laterally rotates the hip and stabilises the femoral head in the acetabulum.",
+      "Blood supply": "Obturator and medial circumflex femoral arteries."
+    },
+    clinical: "Unlike obturator internus, it is supplied by the obturator nerve, reflecting its anterior compartment origin."
+  },
+  {
+    id: "quadratus-femoris",
+    name: "Quadratus femoris",
+    latin: "Musculus quadratus femoris",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Flat quadrilateral lateral rotator of the hip.",
+    details: {
+      "Origin": "Lateral border of the ischial tuberosity.",
+      "Insertion": "Quadrate tubercle on the intertrochanteric crest of the femur.",
+      "Innervation": "Nerve to quadratus femoris (L4–L5, S1).",
+      "Action": "Laterally rotates the hip and stabilises the femoral head.",
+      "Blood supply": "Medial circumflex femoral and inferior gluteal arteries."
+    },
+    clinical: "The lowest of the deep lateral rotators; ischiofemoral impingement involves entrapment of this muscle."
+  },
+  // ===================== LOWER LIMB: ILIOPSOAS =====================
+  {
+    id: "psoas-major",
+    name: "Psoas major",
+    latin: "Musculus psoas major",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Long fusiform posterior abdominal/hip muscle; the chief flexor of the hip and part of the iliopsoas.",
+    details: {
+      "Origin": "Transverse processes, bodies and intervertebral discs of T12–L5.",
+      "Insertion": "Lesser trochanter of the femur (with iliacus).",
+      "Innervation": "Anterior rami of L1–L3.",
+      "Action": "Flexes the hip (chief flexor); stabilises and laterally flexes the lumbar spine.",
+      "Blood supply": "Lumbar branches of the iliolumbar artery."
+    },
+    clinical: "A psoas abscess (e.g., tuberculous) tracks along the muscle to the groin; the positive psoas sign suggests retrocaecal appendicitis."
+  },
+  {
+    id: "psoas-minor",
+    name: "Psoas minor",
+    latin: "Musculus psoas minor",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Slender, often absent muscle anterior to psoas major; weak trunk flexor.",
+    details: {
+      "Origin": "Bodies of T12 and L1 and the intervening disc.",
+      "Insertion": "Pectineal line of the pubis and iliopectineal eminence.",
+      "Innervation": "Anterior ramus of L1.",
+      "Action": "Weakly flexes the lumbar (trunk) on the pelvis.",
+      "Blood supply": "Lumbar branches of the iliolumbar artery."
+    },
+    clinical: "Absent in roughly 40% of people; functionally insignificant."
+  },
+  {
+    id: "iliacus",
+    name: "Iliacus",
+    latin: "Musculus iliacus",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Fan-shaped muscle of the iliac fossa joining psoas major to form the iliopsoas; flexes the hip.",
+    details: {
+      "Origin": "Iliac fossa and ala of the sacrum.",
+      "Insertion": "Lesser trochanter of the femur (with psoas major).",
+      "Innervation": "Femoral nerve (L2–L3).",
+      "Action": "Flexes the hip and stabilises the joint; assists trunk flexion.",
+      "Blood supply": "Iliolumbar and medial femoral circumflex arteries."
+    },
+    clinical: "With psoas major forms the iliopsoas, the most powerful hip flexor; both pass deep to the inguinal ligament."
+  },
+  // ===================== LOWER LIMB: ANTERIOR THIGH =====================
+  {
+    id: "rectus-femoris",
+    name: "Rectus femoris",
+    latin: "Musculus rectus femoris",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Central quadriceps muscle and the only one crossing the hip; flexes the hip and extends the knee.",
+    details: {
+      "Origin": "Straight head from the anterior inferior iliac spine; reflected head from the ilium above the acetabulum.",
+      "Insertion": "Base of the patella and, via the patellar ligament, the tibial tuberosity.",
+      "Innervation": "Femoral nerve (L2–L4).",
+      "Action": "Extends the knee and flexes the hip (its two-joint action).",
+      "Blood supply": "Lateral circumflex femoral artery."
+    },
+    clinical: "The only quadriceps component that also flexes the hip; weakened by femoral nerve injury (loss of the knee-jerk reflex)."
+  },
+  {
+    id: "vastus-lateralis",
+    name: "Vastus lateralis",
+    latin: "Musculus vastus lateralis",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Largest quadriceps muscle on the lateral thigh; extends the knee.",
+    details: {
+      "Origin": "Greater trochanter and lateral lip of the linea aspera of the femur.",
+      "Insertion": "Base of the patella and tibial tuberosity via the patellar ligament.",
+      "Innervation": "Femoral nerve (L2–L4).",
+      "Action": "Extends the knee.",
+      "Blood supply": "Lateral circumflex femoral artery."
+    },
+    clinical: "A common site for intramuscular injection in infants; its tendon contributes to lateral patellar tracking."
+  },
+  {
+    id: "vastus-medialis",
+    name: "Vastus medialis",
+    latin: "Musculus vastus medialis",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Quadriceps muscle on the medial thigh; extends the knee and stabilises the patella.",
+    details: {
+      "Origin": "Intertrochanteric line and medial lip of the linea aspera of the femur.",
+      "Insertion": "Base of the patella and tibial tuberosity via the patellar ligament.",
+      "Innervation": "Femoral nerve (L2–L4).",
+      "Action": "Extends the knee; its lowest oblique fibres (VMO) stabilise the patella medially in terminal extension.",
+      "Blood supply": "Femoral and descending genicular arteries."
+    },
+    clinical: "Weakness/wasting of the VMO contributes to patellofemoral maltracking and anterior knee pain."
+  },
+  {
+    id: "vastus-intermedius",
+    name: "Vastus intermedius",
+    latin: "Musculus vastus intermedius",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Deep quadriceps muscle beneath rectus femoris; extends the knee.",
+    details: {
+      "Origin": "Anterior and lateral surfaces of the femoral shaft.",
+      "Insertion": "Base of the patella and tibial tuberosity via the patellar ligament.",
+      "Innervation": "Femoral nerve (L2–L4).",
+      "Action": "Extends the knee.",
+      "Blood supply": "Lateral circumflex femoral artery."
+    },
+    clinical: "Its deep fibres form the articularis genus, which retracts the suprapatellar bursa during extension."
+  },
+  {
+    id: "sartorius",
+    name: "Sartorius",
+    latin: "Musculus sartorius",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Long strap-like muscle (the longest in the body) crossing the anterior thigh obliquely.",
+    details: {
+      "Origin": "Anterior superior iliac spine.",
+      "Insertion": "Superomedial surface of the tibia (pes anserinus).",
+      "Innervation": "Femoral nerve (L2–L3).",
+      "Action": "Flexes, abducts and laterally rotates the hip and flexes the knee (the 'tailor's' cross-legged position).",
+      "Blood supply": "Femoral artery (muscular branches)."
+    },
+    clinical: "Its medial border forms the lateral boundary of the femoral triangle; part of the pes anserinus at the knee."
+  },
+  // ===================== LOWER LIMB: MEDIAL THIGH (ADDUCTORS) =====================
+  {
+    id: "adductor-longus",
+    name: "Adductor longus",
+    latin: "Musculus adductor longus",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Most anterior of the adductor muscles; adducts the thigh.",
+    details: {
+      "Origin": "Body of the pubis below the pubic crest.",
+      "Insertion": "Middle third of the linea aspera of the femur.",
+      "Innervation": "Obturator nerve, anterior division (L2–L4).",
+      "Action": "Adducts the thigh and assists hip flexion and medial rotation.",
+      "Blood supply": "Deep femoral (profunda femoris) and obturator arteries."
+    },
+    clinical: "Its prominent tendon forms the medial border of the femoral triangle; a common site of groin strain ('rider's strain')."
+  },
+  {
+    id: "adductor-brevis",
+    name: "Adductor brevis",
+    latin: "Musculus adductor brevis",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Adductor muscle deep to adductor longus; adducts the thigh.",
+    details: {
+      "Origin": "Body and inferior ramus of the pubis.",
+      "Insertion": "Pectineal line and proximal linea aspera of the femur.",
+      "Innervation": "Obturator nerve (L2–L4).",
+      "Action": "Adducts the thigh and assists hip flexion.",
+      "Blood supply": "Deep femoral (profunda femoris) and obturator arteries."
+    },
+    clinical: "The obturator nerve divides into anterior and posterior divisions around it, a useful surgical landmark."
+  },
+  {
+    id: "adductor-magnus",
+    name: "Adductor magnus",
+    latin: "Musculus adductor magnus",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Largest adductor with adductor and hamstring parts; powerful adductor of the thigh.",
+    details: {
+      "Origin": "Adductor part from the ischiopubic ramus; hamstring part from the ischial tuberosity.",
+      "Insertion": "Linea aspera and adductor tubercle of the femur (the adductor hiatus lies between the two parts).",
+      "Innervation": "Adductor part by the obturator nerve (L2–L4); hamstring part by the tibial division of the sciatic nerve (L4).",
+      "Action": "Adducts the thigh; adductor part flexes and hamstring part extends the hip.",
+      "Blood supply": "Deep femoral (profunda femoris) and obturator arteries."
+    },
+    clinical: "The adductor (tendinous) hiatus transmits the femoral vessels into the popliteal fossa, where they become the popliteal vessels."
+  },
+  {
+    id: "gracilis",
+    name: "Gracilis",
+    latin: "Musculus gracilis",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Thin superficial medial thigh muscle crossing both hip and knee; adducts the thigh.",
+    details: {
+      "Origin": "Body and inferior ramus of the pubis.",
+      "Insertion": "Superomedial surface of the tibia (pes anserinus).",
+      "Innervation": "Obturator nerve (L2–L3).",
+      "Action": "Adducts the thigh and flexes and medially rotates the leg at the knee.",
+      "Blood supply": "Deep femoral and obturator arteries."
+    },
+    clinical: "The only adductor crossing the knee; commonly harvested as a muscle/tendon graft (e.g., ACL reconstruction, free flaps)."
+  },
+  {
+    id: "pectineus",
+    name: "Pectineus",
+    latin: "Musculus pectineus",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Flat quadrangular muscle of the upper medial thigh that adducts and flexes the hip.",
+    details: {
+      "Origin": "Pecten pubis (pectineal line) of the superior pubic ramus.",
+      "Insertion": "Pectineal line of the femur, just below the lesser trochanter.",
+      "Innervation": "Femoral nerve (L2–L3); occasionally a branch of the obturator nerve.",
+      "Action": "Adducts and flexes the hip.",
+      "Blood supply": "Medial circumflex femoral and obturator arteries."
+    },
+    clinical: "Forms part of the floor of the femoral triangle; its dual potential innervation reflects its transitional position."
+  },
+  // ===================== LOWER LIMB: POSTERIOR THIGH (HAMSTRINGS) =====================
+  {
+    id: "biceps-femoris",
+    name: "Biceps femoris",
+    latin: "Musculus biceps femoris",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Two-headed lateral hamstring; flexes the knee and extends the hip.",
+    details: {
+      "Origin": "Long head from the ischial tuberosity; short head from the lateral lip of the linea aspera of the femur.",
+      "Insertion": "Head of the fibula.",
+      "Innervation": "Long head by the tibial division of the sciatic nerve (L5, S1–S2); short head by the common fibular division of the sciatic nerve (L5, S1–S2).",
+      "Action": "Flexes the knee and laterally rotates the flexed leg; long head extends the hip.",
+      "Blood supply": "Perforating branches of the deep femoral artery."
+    },
+    clinical: "Its tendon forms the superolateral border of the popliteal fossa; the common fibular nerve runs along its medial tendon border and is vulnerable here."
+  },
+  {
+    id: "semitendinosus",
+    name: "Semitendinosus",
+    latin: "Musculus semitendinosus",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Medial hamstring with a long cord-like tendon; flexes the knee and extends the hip.",
+    details: {
+      "Origin": "Ischial tuberosity.",
+      "Insertion": "Superomedial surface of the tibia (pes anserinus).",
+      "Innervation": "Tibial division of the sciatic nerve (L5, S1–S2).",
+      "Action": "Extends the hip, flexes the knee and medially rotates the flexed leg.",
+      "Blood supply": "Perforating branches of the deep femoral artery."
+    },
+    clinical: "Part of the pes anserinus; its tendon is commonly harvested with gracilis for ACL reconstruction."
+  },
+  {
+    id: "semimembranosus",
+    name: "Semimembranosus",
+    latin: "Musculus semimembranosus",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Broad flat medial hamstring deep to semitendinosus; flexes the knee and extends the hip.",
+    details: {
+      "Origin": "Ischial tuberosity.",
+      "Insertion": "Posterior part of the medial condyle of the tibia (and the oblique popliteal ligament).",
+      "Innervation": "Tibial division of the sciatic nerve (L5, S1–S2).",
+      "Action": "Extends the hip, flexes the knee and medially rotates the flexed leg.",
+      "Blood supply": "Perforating branches of the deep femoral artery."
+    },
+    clinical: "Forms the superomedial border of the popliteal fossa; a popliteal (Baker) cyst often arises from its bursa."
+  },
+  // ===================== LOWER LIMB: LEG ANTERIOR =====================
+  {
+    id: "tibialis-anterior",
+    name: "Tibialis anterior",
+    latin: "Musculus tibialis anterior",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Most medial muscle of the anterior leg compartment; the chief dorsiflexor of the foot.",
+    details: {
+      "Origin": "Lateral condyle and proximal half of the lateral surface of the tibia and interosseous membrane.",
+      "Insertion": "Medial cuneiform and base of the first metatarsal.",
+      "Innervation": "Deep fibular (peroneal) nerve (L4–L5).",
+      "Action": "Dorsiflexes the ankle and inverts the foot; supports the medial longitudinal arch.",
+      "Blood supply": "Anterior tibial artery."
+    },
+    clinical: "Weakness causes foot drop and a high-stepping gait; commonly affected in deep fibular nerve injury and the L4–L5 root."
+  },
+  {
+    id: "extensor-hallucis-longus",
+    name: "Extensor hallucis longus",
+    latin: "Musculus extensor hallucis longus",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Anterior compartment leg muscle that extends the great toe.",
+    details: {
+      "Origin": "Middle of the anterior surface of the fibula and interosseous membrane.",
+      "Insertion": "Base of the distal phalanx of the great toe.",
+      "Innervation": "Deep fibular (peroneal) nerve (L5, S1).",
+      "Action": "Extends the great toe and dorsiflexes the ankle.",
+      "Blood supply": "Anterior tibial artery."
+    },
+    clinical: "Weak great-toe extension is a sensitive sign of an L5 radiculopathy."
+  },
+  {
+    id: "extensor-digitorum-longus",
+    name: "Extensor digitorum longus",
+    latin: "Musculus extensor digitorum longus",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Anterior compartment leg muscle that extends the lateral four toes.",
+    details: {
+      "Origin": "Lateral condyle of the tibia and proximal three-quarters of the anterior fibula and interosseous membrane.",
+      "Insertion": "Middle and distal phalanges of the lateral four toes (via extensor expansions).",
+      "Innervation": "Deep fibular (peroneal) nerve (L5, S1).",
+      "Action": "Extends the lateral four toes and dorsiflexes the ankle.",
+      "Blood supply": "Anterior tibial artery."
+    },
+    clinical: "Works with tibialis anterior in dorsiflexion; impaired in deep fibular nerve injury."
+  },
+  {
+    id: "fibularis-tertius",
+    name: "Fibularis tertius (peroneus tertius)",
+    latin: "Musculus fibularis tertius",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Small anterior compartment muscle (a partially separated part of extensor digitorum longus) that aids dorsiflexion and eversion.",
+    details: {
+      "Origin": "Distal anterior surface of the fibula and interosseous membrane.",
+      "Insertion": "Base of the fifth metatarsal.",
+      "Innervation": "Deep fibular (peroneal) nerve (L5, S1).",
+      "Action": "Dorsiflexes the ankle and everts the foot.",
+      "Blood supply": "Anterior tibial artery."
+    },
+    clinical: "Variably present; despite everting the foot it is supplied by the deep fibular nerve (anterior compartment)."
+  },
+  // ===================== LOWER LIMB: LEG LATERAL =====================
+  {
+    id: "fibularis-longus",
+    name: "Fibularis longus (peroneus longus)",
+    latin: "Musculus fibularis longus",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Superficial lateral compartment leg muscle that everts the foot and supports the arches.",
+    details: {
+      "Origin": "Head and proximal two-thirds of the lateral surface of the fibula.",
+      "Insertion": "Medial cuneiform and base of the first metatarsal (crossing the sole obliquely).",
+      "Innervation": "Superficial fibular (peroneal) nerve (L5, S1–S2).",
+      "Action": "Everts and plantarflexes the foot; supports the transverse and lateral longitudinal arches.",
+      "Blood supply": "Fibular (peroneal) artery."
+    },
+    clinical: "The common fibular nerve winds around the fibular neck (deep to fibularis longus origin), where it is vulnerable to compression causing foot drop."
+  },
+  {
+    id: "fibularis-brevis",
+    name: "Fibularis brevis (peroneus brevis)",
+    latin: "Musculus fibularis brevis",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Deeper lateral compartment leg muscle that everts the foot.",
+    details: {
+      "Origin": "Distal two-thirds of the lateral surface of the fibula.",
+      "Insertion": "Tuberosity of the base of the fifth metatarsal.",
+      "Innervation": "Superficial fibular (peroneal) nerve (L5, S1–S2).",
+      "Action": "Everts and weakly plantarflexes the foot.",
+      "Blood supply": "Fibular (peroneal) artery."
+    },
+    clinical: "Forceful inversion can avulse its insertion at the fifth metatarsal base (avulsion fracture)."
+  },
+  // ===================== LOWER LIMB: LEG POSTERIOR SUPERFICIAL =====================
+  {
+    id: "gastrocnemius",
+    name: "Gastrocnemius",
+    latin: "Musculus gastrocnemius",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Large two-headed superficial calf muscle; plantarflexes the ankle and flexes the knee.",
+    details: {
+      "Origin": "Lateral head from the lateral femoral condyle; medial head from the popliteal surface above the medial condyle.",
+      "Insertion": "Posterior calcaneus via the calcaneal (Achilles) tendon.",
+      "Innervation": "Tibial nerve (S1–S2).",
+      "Action": "Plantarflexes the ankle (powerful in running/jumping) and flexes the knee.",
+      "Blood supply": "Sural arteries (from the popliteal artery)."
+    },
+    clinical: "Forms the bulk of the calf and the superolateral/medial borders of the popliteal fossa; medial head tears cause 'tennis leg'."
+  },
+  {
+    id: "soleus",
+    name: "Soleus",
+    latin: "Musculus soleus",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Broad flat calf muscle deep to gastrocnemius; the workhorse plantarflexor and a venous pump.",
+    details: {
+      "Origin": "Soleal line and posterior surface of the tibia and the posterior head/proximal fibula (soleal arch).",
+      "Insertion": "Posterior calcaneus via the calcaneal (Achilles) tendon.",
+      "Innervation": "Tibial nerve (S1–S2).",
+      "Action": "Plantarflexes the ankle; maintains upright posture; acts as a 'peripheral heart' pumping venous blood.",
+      "Blood supply": "Posterior tibial, fibular and sural arteries."
+    },
+    clinical: "Soleal vein sinuses are a common site of deep vein thrombosis; with gastrocnemius forms the triceps surae."
+  },
+  {
+    id: "plantaris",
+    name: "Plantaris",
+    latin: "Musculus plantaris",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Small muscle with a long slender tendon in the superficial posterior leg; weakly aids plantarflexion.",
+    details: {
+      "Origin": "Lateral supracondylar line of the femur, above the lateral head of gastrocnemius.",
+      "Insertion": "Posterior calcaneus (medial to the calcaneal tendon).",
+      "Innervation": "Tibial nerve (S1–S2).",
+      "Action": "Weakly assists plantarflexion of the ankle and flexion of the knee; provides proprioception.",
+      "Blood supply": "Sural arteries (from the popliteal artery)."
+    },
+    clinical: "Often absent; its long tendon is used for tendon grafts, and its rupture can mimic an Achilles tear."
+  },
+  // ===================== LOWER LIMB: LEG POSTERIOR DEEP =====================
+  {
+    id: "popliteus",
+    name: "Popliteus",
+    latin: "Musculus popliteus",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Deep muscle of the popliteal fossa that 'unlocks' the extended knee.",
+    details: {
+      "Origin": "Lateral surface of the lateral femoral condyle and lateral meniscus.",
+      "Insertion": "Posterior surface of the tibia above the soleal line.",
+      "Innervation": "Tibial nerve (L4–L5, S1).",
+      "Action": "Laterally rotates the femur on the fixed tibia ('unlocking' the fully extended knee to initiate flexion); medially rotates the tibia on the femur.",
+      "Blood supply": "Popliteal artery (muscular and genicular branches)."
+    },
+    clinical: "Essential for unlocking the screwed-home knee before flexion; also retracts the lateral meniscus to prevent entrapment."
+  },
+  {
+    id: "tibialis-posterior",
+    name: "Tibialis posterior",
+    latin: "Musculus tibialis posterior",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Deepest muscle of the posterior leg; the principal invertor and a key support of the medial arch.",
+    details: {
+      "Origin": "Interosseous membrane and adjacent posterior surfaces of the tibia and fibula.",
+      "Insertion": "Navicular tuberosity, cuneiforms, cuboid and bases of metatarsals 2–4.",
+      "Innervation": "Tibial nerve (L4–L5).",
+      "Action": "Inverts and plantarflexes the foot; supports the medial longitudinal arch.",
+      "Blood supply": "Posterior tibial and fibular arteries."
+    },
+    clinical: "Tibialis posterior tendon dysfunction is the leading cause of acquired adult flatfoot (pes planus)."
+  },
+  {
+    id: "flexor-hallucis-longus",
+    name: "Flexor hallucis longus",
+    latin: "Musculus flexor hallucis longus",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Deep posterior leg muscle that flexes the great toe and provides push-off.",
+    details: {
+      "Origin": "Distal two-thirds of the posterior surface of the fibula and interosseous membrane.",
+      "Insertion": "Base of the distal phalanx of the great toe.",
+      "Innervation": "Tibial nerve (S1–S2).",
+      "Action": "Flexes the great toe and plantarflexes the ankle; supports the medial arch and provides toe-off in gait.",
+      "Blood supply": "Fibular (peroneal) artery."
+    },
+    clinical: "Provides final push-off power; its tendon passes posterior to the medial malleolus and beneath the sustentaculum tali."
+  },
+  {
+    id: "flexor-digitorum-longus",
+    name: "Flexor digitorum longus",
+    latin: "Musculus flexor digitorum longus",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Deep posterior leg muscle that flexes the lateral four toes.",
+    details: {
+      "Origin": "Medial part of the posterior surface of the tibia, below the soleal line.",
+      "Insertion": "Bases of the distal phalanges of the lateral four toes.",
+      "Innervation": "Tibial nerve (S1–S2).",
+      "Action": "Flexes the lateral four toes and plantarflexes the ankle; supports the longitudinal arches.",
+      "Blood supply": "Posterior tibial artery."
+    },
+    clinical: "Its tendon passes behind the medial malleolus within the tarsal tunnel (mnemonic 'Tom, Dick and Harry' ordering of tendons/vessels/nerve)."
+  },
+  // ===================== LOWER LIMB: FOOT INTRINSICS =====================
+  {
+    id: "extensor-digitorum-brevis",
+    name: "Extensor digitorum brevis",
+    latin: "Musculus extensor digitorum brevis",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Intrinsic muscle on the dorsum of the foot that extends the medial toes (its medial slip is the extensor hallucis brevis).",
+    details: {
+      "Origin": "Superolateral surface of the calcaneus.",
+      "Insertion": "Extensor expansions/proximal phalanges of toes 1–4 (medial slip to the great toe).",
+      "Innervation": "Deep fibular (peroneal) nerve (L5, S1).",
+      "Action": "Extends the metatarsophalangeal joints of the medial four toes.",
+      "Blood supply": "Dorsalis pedis and lateral tarsal arteries."
+    },
+    clinical: "Forms a soft swelling on the lateral dorsum of the foot that can be mistaken for oedema; the only intrinsic muscle on the dorsum."
+  },
+  {
+    id: "abductor-hallucis",
+    name: "Abductor hallucis",
+    latin: "Musculus abductor hallucis",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "First-layer plantar muscle along the medial border of the foot; abducts the great toe.",
+    details: {
+      "Origin": "Medial process of the calcaneal tuberosity, flexor retinaculum and plantar aponeurosis.",
+      "Insertion": "Medial side of the base of the proximal phalanx of the great toe.",
+      "Innervation": "Medial plantar nerve (S1–S2).",
+      "Action": "Abducts and flexes the great toe; supports the medial longitudinal arch.",
+      "Blood supply": "Medial plantar artery."
+    },
+    clinical: "The tarsal tunnel and its contents pass deep to it; it can compress the nerve to abductor digiti minimi (Baxter neuropathy)."
+  },
+  {
+    id: "flexor-digitorum-brevis",
+    name: "Flexor digitorum brevis",
+    latin: "Musculus flexor digitorum brevis",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Central first-layer plantar muscle that flexes the lateral four toes.",
+    details: {
+      "Origin": "Medial process of the calcaneal tuberosity and plantar aponeurosis.",
+      "Insertion": "Sides of the middle phalanges of the lateral four toes (each tendon splits, like FDS in the hand).",
+      "Innervation": "Medial plantar nerve (S1–S2).",
+      "Action": "Flexes the proximal interphalangeal joints of the lateral four toes; supports the longitudinal arch.",
+      "Blood supply": "Medial and lateral plantar arteries."
+    },
+    clinical: "The foot analogue of flexor digitorum superficialis; supports the arch during stance."
+  },
+  {
+    id: "abductor-digiti-minimi-foot",
+    name: "Abductor digiti minimi (foot)",
+    latin: "Musculus abductor digiti minimi pedis",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "First-layer plantar muscle along the lateral border of the foot; abducts the little toe.",
+    details: {
+      "Origin": "Lateral and medial processes of the calcaneal tuberosity and plantar aponeurosis.",
+      "Insertion": "Lateral side of the base of the proximal phalanx of the fifth toe.",
+      "Innervation": "Lateral plantar nerve (S1–S3).",
+      "Action": "Abducts and flexes the little toe; supports the lateral longitudinal arch.",
+      "Blood supply": "Lateral plantar artery."
+    },
+    clinical: "Entrapment of its motor nerve (first branch of the lateral plantar nerve, Baxter nerve) is a cause of chronic heel pain."
+  },
+  {
+    id: "quadratus-plantae",
+    name: "Quadratus plantae",
+    latin: "Musculus quadratus plantae",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Second-layer plantar muscle (flexor accessorius) that straightens the oblique pull of flexor digitorum longus.",
+    details: {
+      "Origin": "Medial and lateral margins of the plantar surface of the calcaneus.",
+      "Insertion": "Lateral margin of the tendon of flexor digitorum longus.",
+      "Innervation": "Lateral plantar nerve (S1–S3).",
+      "Action": "Modifies the line of pull of flexor digitorum longus so it flexes the toes straight rather than obliquely.",
+      "Blood supply": "Lateral plantar artery."
+    },
+    clinical: "Allows the long toe flexor to act in line with the toes during push-off."
+  },
+  {
+    id: "lumbricals-foot",
+    name: "Lumbricals of the foot",
+    latin: "Musculi lumbricales pedis",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Four small second-layer plantar muscles arising from the flexor digitorum longus tendons.",
+    details: {
+      "Origin": "Tendons of flexor digitorum longus.",
+      "Insertion": "Medial sides of the extensor expansions of the lateral four toes.",
+      "Innervation": "First lumbrical by the medial plantar nerve; lateral three by the lateral plantar nerve (S2–S3).",
+      "Action": "Flex the metatarsophalangeal joints and extend the interphalangeal joints; resist toe clawing.",
+      "Blood supply": "Plantar metatarsal arteries and plantar arch."
+    },
+    clinical: "Weakness contributes to clawing of the toes (e.g., in peripheral neuropathy)."
+  },
+  {
+    id: "flexor-hallucis-brevis",
+    name: "Flexor hallucis brevis",
+    latin: "Musculus flexor hallucis brevis",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Third-layer plantar muscle that flexes the great toe; contains the sesamoid bones.",
+    details: {
+      "Origin": "Plantar surfaces of the cuboid and lateral cuneiform.",
+      "Insertion": "Medial and lateral sides of the base of the proximal phalanx of the great toe (two heads).",
+      "Innervation": "Medial plantar nerve (S1–S2).",
+      "Action": "Flexes the metatarsophalangeal joint of the great toe; supports the medial arch.",
+      "Blood supply": "Medial plantar and plantar arch arteries."
+    },
+    clinical: "The two sesamoid bones in its tendons articulate beneath the first metatarsal head and may become inflamed (sesamoiditis)."
+  },
+  {
+    id: "adductor-hallucis",
+    name: "Adductor hallucis",
+    latin: "Musculus adductor hallucis",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Third-layer plantar muscle with oblique and transverse heads that adducts the great toe.",
+    details: {
+      "Origin": "Oblique head from the bases of metatarsals 2–4; transverse head from the plantar metatarsophalangeal ligaments of toes 3–5.",
+      "Insertion": "Lateral side of the base of the proximal phalanx of the great toe.",
+      "Innervation": "Deep branch of the lateral plantar nerve (S2–S3).",
+      "Action": "Adducts the great toe and helps maintain the transverse arch of the foot.",
+      "Blood supply": "Plantar arch and plantar metatarsal arteries."
+    },
+    clinical: "Weakness or imbalance contributes to hallux valgus (bunion) deformity."
+  },
+  {
+    id: "flexor-digiti-minimi-brevis-foot",
+    name: "Flexor digiti minimi brevis (foot)",
+    latin: "Musculus flexor digiti minimi brevis pedis",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Third-layer plantar muscle that flexes the little toe.",
+    details: {
+      "Origin": "Base of the fifth metatarsal and plantar fascia.",
+      "Insertion": "Base of the proximal phalanx of the fifth toe.",
+      "Innervation": "Superficial branch of the lateral plantar nerve (S2–S3).",
+      "Action": "Flexes the metatarsophalangeal joint of the little toe.",
+      "Blood supply": "Lateral plantar and plantar metatarsal arteries."
+    },
+    clinical: "The foot counterpart of the hand's flexor digiti minimi brevis."
+  },
+  {
+    id: "dorsal-interossei-foot",
+    name: "Dorsal interossei (foot)",
+    latin: "Musculi interossei dorsales pedis",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Four bipennate fourth-layer muscles that abduct the toes from the second-toe axis.",
+    details: {
+      "Origin": "Adjacent sides of the metatarsals (each by two heads).",
+      "Insertion": "Proximal phalanges and extensor expansions of toes 2–4.",
+      "Innervation": "Lateral plantar nerve (S2–S3).",
+      "Action": "Abduct toes 2–4 from the axis of the second toe; flex MTP and extend IP joints.",
+      "Blood supply": "Plantar and dorsal metatarsal arteries."
+    },
+    clinical: "Reference axis for foot abduction/adduction is the second toe (unlike the hand's third digit)."
+  },
+  {
+    id: "plantar-interossei",
+    name: "Plantar interossei",
+    latin: "Musculi interossei plantares",
+    system: "muscular",
+    category: "Muscle",
+    region: "lower-limb",
+    count: 2,
+    description: "Three unipennate fourth-layer muscles that adduct the toes toward the second-toe axis.",
+    details: {
+      "Origin": "Bases and medial sides of metatarsals 3–5.",
+      "Insertion": "Medial sides of the proximal phalanges and extensor expansions of toes 3–5.",
+      "Innervation": "Lateral plantar nerve (S2–S3).",
+      "Action": "Adduct toes 3–5 toward the second toe; flex MTP and extend IP joints.",
+      "Blood supply": "Plantar metatarsal arteries and plantar arch."
+    },
+    clinical: "Adduct toes toward the second-toe axis (PAD); act with the lumbricals to stabilise the toes."
   }
 ];
