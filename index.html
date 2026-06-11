@@ -23,6 +23,7 @@
       </div>
       <nav class="header-nav">
         <button class="nav-btn" id="nav-atlas" data-view="atlas">Atlas</button>
+        <button class="nav-btn" id="nav-body" data-view="body">3D Body</button>
         <button class="nav-btn" id="nav-quiz" data-view="quiz">Quiz</button>
       </nav>
     </div>
@@ -35,6 +36,9 @@
       <h1>The whole human body,<br>one structure at a time.</h1>
       <p class="hero-lead">A complete, searchable anatomical reference built for medical students — every bone of the skeleton, every named muscle with its origin, insertion, innervation and action, the full arterial and venous trees, the nervous system and every organ, each with a clinical pearl.</p>
       <div class="hero-stats" id="hero-stats"><!-- populated by JS --></div>
+      <div class="hero-actions">
+        <button class="btn btn-primary" id="hero-body-btn">&#129489; Explore the 3D body</button>
+      </div>
     </section>
 
     <section class="systems" id="system-cards"><!-- populated by JS --></section>
@@ -58,6 +62,28 @@
       </div>
     </section>
 
+  </main>
+
+  <!-- ============ 3D BODY VIEW ============ -->
+  <main id="view-body" class="hidden">
+    <section class="body3d-shell">
+      <div class="body3d-head">
+        <h1>Interactive 3D body</h1>
+        <p class="hero-lead">Drag to rotate, scroll or pinch to zoom. Click any body part to list every bone, muscle, vessel, nerve and organ in that region &mdash; then tap a structure for its full detail card.</p>
+      </div>
+      <div class="body3d-layout">
+        <div class="body3d-stage" id="body3d-stage">
+          <div id="body3d-tooltip"></div>
+        </div>
+        <aside class="body3d-panel" id="body3d-panel">
+          <div class="body3d-placeholder">
+            <span class="body3d-placeholder-icon">&#128070;</span>
+            <h3>Select a body part</h3>
+            <p>Click the head, thorax, abdomen, limbs &mdash; or rotate the model and click the spine on the back &mdash; to explore the anatomy of that region.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
   </main>
 
   <!-- ============ QUIZ VIEW ============ -->
@@ -120,11 +146,14 @@
     <p><strong>Corpus</strong> &mdash; an open anatomy reference for medical students. Content is for study purposes and is not a substitute for clinical guidance or your course materials.</p>
   </footer>
 
+  <script src="js/vendor/three.min.js"></script>
+  <script src="js/vendor/OrbitControls.js"></script>
   <script src="js/data/bones.js"></script>
   <script src="js/data/muscles.js"></script>
   <script src="js/data/vessels.js"></script>
   <script src="js/data/nerves.js"></script>
   <script src="js/data/organs.js"></script>
   <script src="js/app.js"></script>
+  <script src="js/body3d.js"></script>
 </body>
 </html>

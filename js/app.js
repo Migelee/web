@@ -425,10 +425,11 @@
 
   function setView(view) {
     state.view = view;
-    $("view-atlas").classList.toggle("hidden", view !== "atlas");
-    $("view-quiz").classList.toggle("hidden", view !== "quiz");
-    $("nav-atlas").classList.toggle("nav-active", view === "atlas");
-    $("nav-quiz").classList.toggle("nav-active", view === "quiz");
+    ["atlas", "body", "quiz"].forEach(function (v) {
+      $("view-" + v).classList.toggle("hidden", v !== view);
+      $("nav-" + v).classList.toggle("nav-active", v === view);
+    });
+    if (view === "body" && window.Body3D) window.Body3D.activate();
     if (view === "quiz") {
       $("quiz-setup").classList.remove("hidden");
       $("quiz-run").classList.add("hidden");
@@ -498,11 +499,34 @@
       });
     });
 
+    $("hero-body-btn").addEventListener("click", function () { setView("body"); });
+
     $("quiz-start").addEventListener("click", startQuiz);
     $("quiz-next").addEventListener("click", nextQuestion);
     $("quiz-again").addEventListener("click", function () { setView("quiz"); });
     $("quiz-back").addEventListener("click", function () { setView("atlas"); });
   }
+
+  /* ---------- Public API (used by the 3D body view) ---------- */
+
+  window.Corpus = {
+    data: ALL,
+    regions: REGIONS,
+    systems: SYSTEMS,
+    openEntry: openModal,
+    setView: setView,
+    browseRegion: function (region) {
+      state.query = "";
+      $("search-input").value = "";
+      state.system = "all";
+      state.category = "all";
+      state.region = region;
+      state.shown = PAGE_SIZE;
+      render();
+      setView("atlas");
+      $("system-filters").scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+  };
 
   /* ---------- Init ---------- */
 
