@@ -17,6 +17,7 @@ Every entry carries a **clinical pearl** — the fracture, palsy, pulse point or
 - **Instant search** across names, Latin terms, and every detail field (press `/` to focus).
 - **Filters** by body system, body region (head & neck, thorax, limbs, …) and structure type (artery vs. vein, …).
 - **Detail cards** with full exam-grade facts in a clean table layout.
+- **Interactive 3D body** — a layered anatomical model (Three.js) with a clickable skeleton (individual bones), the major organs in anatomical position, the brain & spinal cord, and a skin layer. Toggle layers with the on-model chips; click any bone or organ to open its detail card and list every structure in that region.
 - **Quiz mode** — multiple-choice questions auto-generated from the atlas itself (origins, insertions, innervations, root values, branches, locations), filterable by system.
 
 ## Running it
@@ -31,9 +32,11 @@ python3 -m http.server 8000
 ## Project structure
 
 ```
-index.html          page shell (atlas view, quiz view, detail modal)
+index.html          page shell (atlas, 3D body, quiz, detail modal)
 css/style.css       styling
 js/app.js           search, filters, modal, quiz engine
+js/body3d.js        interactive 3D anatomical model
+js/vendor/          Three.js + OrbitControls (bundled, no CDN needed)
 js/data/bones.js    skeletal data   (window.ANATOMY_BONES)
 js/data/muscles.js  muscular data   (window.ANATOMY_MUSCLES)
 js/data/vessels.js  arteries/veins  (window.ANATOMY_VESSELS)
