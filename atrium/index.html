@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="sq">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atrium — Menu</title>
+  <meta name="description" content="Atrium restaurant menu — brunch, pasta, risotto, smoked grill and fresh fish. Menuja e restorantit Atrium në shqip dhe anglisht.">
+  <meta name="theme-color" content="#6f3027">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%236f3027'/%3E%3Cpath d='M16 50V30a16 16 0 0 1 32 0v20' fill='none' stroke='%23f6efe3' stroke-width='4'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a class="brand" href="#top" aria-label="Atrium">ATRIUM</a>
+  <div class="lang" role="group" aria-label="Language / Gjuha">
+    <button type="button" data-lang="sq" aria-pressed="true">SQ</button>
+    <button type="button" data-lang="en" aria-pressed="false">EN</button>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <svg class="arch" viewBox="0 0 120 150" aria-hidden="true">
+      <path d="M10 148V60a50 50 0 0 1 100 0v88" />
+      <path d="M26 148V62a34 34 0 0 1 68 0v86" />
+      <path d="M42 148V64a18 18 0 0 1 36 0v84" />
+    </svg>
+    <h1 class="wordmark">ATRIUM</h1>
+    <p class="tagline" data-i18n="tagline"></p>
+  </section>
+
+  <div class="sticky-tools">
+    <nav class="catnav" aria-label="Menu sections">
+      <div class="catnav-scroll" id="catnav"></div>
+    </nav>
+    <div class="search">
+      <input id="search" type="search" autocomplete="off" spellcheck="false" data-i18n-placeholder="search">
+    </div>
+  </div>
+
+  <div id="menu" class="menu"></div>
+  <p id="empty" class="empty" hidden data-i18n="empty"></p>
+  <noscript><p class="empty">Please enable JavaScript to view the menu · Aktivizoni JavaScript për të parë menunë.</p></noscript>
+</main>
+
+<footer class="footer">
+  <p class="wordmark small">ATRIUM</p>
+  <p data-i18n="prices"></p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
